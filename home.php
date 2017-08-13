@@ -17,8 +17,8 @@
 					<li><a href="#small-groups-hero">Small Groups</a></li>
 					<li><a href="#events">Events</a></li>
 					<li><a href="#campus-shuttle">Campus Shuttle</a></li>
-					<li><a href="#campus-shuttle">About</a></li>
-					<li><a href="#campus-shuttle">Contact</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -201,7 +201,7 @@
 	</div>
 </section>
 
-<section>
+<section id="about">
 	<div class="section-body">
 		<div class="wrapper">
 			<div class="columns is-fullwidth-on-mobile has-padded-columns">
@@ -218,10 +218,10 @@
 	</div>
 </section>
 
-<footer>
+<footer class="contact">
 	<div class="section-body">
 		<div class="wrapper">
-			<p>Need Prayer? Want to volunteer? or just have questions? Email us at thesummit@newjc.org or call (336) 645-9271 (Sun-Fri 10AM-5PM).</p>
+			<p>Need Prayer? Want to volunteer? or just have questions? Email us at <a href="mailto:thesummit@newjc.org">thesummit@newjc.org</a> or call (336) 645-9271 (Sun-Fri 10AM-5PM).</p>
 		</div>
 	</div>
 </footer>
