@@ -1,0 +1,102 @@
+$red: #e83f32;
+
+header,
+section,
+footer {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 48px;
+}
+
+.button {
+	&.is-outlined {
+		border-color: $red;
+		padding: 10px 20px;
+		color: $red;
+	}
+}
+
+ul.list.is-outlined li {
+	border-color: $red;
+	border-width: 4px;
+	background-color: #fff;
+}
+
+.event-day-of-week {
+	color: $red;
+}
+
+.event-card {
+	box-shadow: 0 5px 5px #CCC;
+
+	.event-header h3 {
+		color: $red;
+	}
+
+	strong {
+		color: $red;
+	}
+}
+
+.notice,
+strong,
+.is-red {
+	color: $red;
+}
+
+header {
+	background-color: #fff;
+	background-image: url('../images/the-summit-icon-banner.png');
+
+	h2, h3 {
+		color: $red;
+	}
+
+	a {
+		color: #222;
+	}
+
+}
+
+#winter-retreat-hero {
+	background-image: url('../images/man-skiing-on-mountain-red.jpg');
+	color: #fff;
+
+	h2, p {
+		color: #fff;
+	}
+
+	h2 {
+		text-shadow: 2px 2px $red;
+	}
+
+	.button.is-outlined {
+		color: #fff;
+		border-color: #fff;
+	}
+}
+
+#small-groups-hero {
+	background-image: url('../images/small-group-leaders-studying-bw.jpg');
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	header .section-header .wrapper, header .section-body .wrapper, section .section-header .wrapper, section .section-body .wrapper, footer .section-header .wrapper, footer .section-body .wrapper {
+		padding: 10px;
+	}
+}

@@ -1,37 +1,140 @@
 <?php get_header(); ?>
 
-<header>
-	<div class="container">
-		<h1>The Summit</h1>
-		<nav class="nav is-horizontal">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Small Groups</a></li>
-				<li><a href="#">Events</a></li>
-				<li><a href="#">Faith</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
+<header class="is-large is-red">
+	<div class="section-header has-no-padding">
+		<div class="wrapper">
+			<h1 class="is-logo is-floating-left"><img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/the-summit-logo-2017-web
+			.png'; ?>" height="70" /></h1>
+			<?php /* wp_nav_menu( array(
+				'theme_location' 	=> 'primary',
+				'container'			=> 'nav',
+				'container_class'	=> 'is-floating-right',
+				'menu_class'		=> 'is-main-nav is-horizontal',
+			) ); */ ?>
+			<nav class="is-floating-right">
+				<ul class="is-main-nav is-horizontal">
+					<li><a href="#winter-retreat-hero">Winter Retreat</a></li>
+					<li><a href="#small-groups-hero">Small Groups</a></li>
+					<li><a href="#events">Events</a></li>
+					<li><a href="#campus-shuttle">Campus Shuttle</a></li>
+					<li><a href="#campus-shuttle">About</a></li>
+					<li><a href="#campus-shuttle">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="section-body has-space-on-top">
+		<div class="wrapper">
+			<h2><?php echo get_bloginfo( 'description' ); ?></h2>
+			<h3>Be the light. Light the world.</h3>
+		</div>
 	</div>
 </header>
 
-<section>
-	<div class="container">
-		<h2>Small Groups build community</h2>
-		<p>This is the place and time where we list out the available small groups for a user to view.</p>
+<section id="winter-retreat-hero" class="is-medium">
+	<div class="section-body has-text-centered has-space-on-top has-space-on-bottom">
+		<div class="wrapper">
+			<h2>Winter Retreat 2018</h2>
+			<p>Skiing, snowboarding and life changing discussions around camp fires are just a few of the things you can expect on this trip. A great opportunity to connect with God through nature, you don't want to miss this chance to start the New Year off with God; fully charged. Only 20 spots are available so don't delay. Dates are January 3-6, 2017.</p>
+			<p>Registration begins Sunday, August 20th.</p>
+			<!-- <a class="button is-outlined">Learn More</a> -->
+		</div>
 	</div>
 </section>
 
-<section>
+<section id="small-groups-hero">
+	<div class="section-body">
+		<div class="wrapper">
+			<div class="columns">
+				<div class="column">
+					<h2 class="special">Small Groups.<br />Big Impact.</h2>
+					<!-- <h3>Smaller shorter header</h3> -->
+					<p>God never intended for you to go through life by yourself. Small groups give young adults the opportunity to develop a closer relationship with God and each other. Groups meet bi-weekly, allowing you to study God's word, fellowship and serve the community; together.</p>
+					<!-- <a href="<?php echo home_url('/life-groups'); ?>" class="button is-outlined">Learn More</a> -->
+				</div>
+				<div class="column has-left-margin">
+					<h4>Upcoming Small Groups</h4>
+					<ul class="list events-list is-outlined">
+						<li>
+							<div class="event-date-wrapper">
+								<span class="event-date">
+									<span class="label event-day-of-week">22</span>
+									<span class="label event-month">August</span>
+								</span>
+								<div class="event-details">
+									<span class="label event-title">Rissa's Group</span>
+									<span class="label event-location">Location: Chipotle (Tate St.)</span>
+									<span class="label event-time">6:30 PM</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="event-date-wrapper">
+								<span class="event-date">
+									<span class="label event-day-of-week">23</span>
+									<span class="label event-month">August</span>
+								</span>
+								<div class="event-details">
+									<span class="label event-title">CJ's Group</span>
+									<span class="label event-location">Location: Starbucks (Battleground Ave.)</span>
+									<span class="label event-time">6:00 PM</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="event-date-wrapper is-minimized">
+								<span class="event-date">
+									<span class="label event-day-of-week">25</span>
+									<span class="label event-month">August</span>
+								</span>
+								<div class="event-details">
+									<span class="label event-title">Justin's Group</span>
+									<span class="label event-location">Location: TBA</span>
+									<span class="label event-time">7:00 PM</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="event-date-wrapper is-minimized">
+								<span class="event-date">
+									<span class="label event-day-of-week">26</span>
+									<span class="label event-month">August</span>
+								</span>
+								<div class="event-details">
+									<span class="label event-title">The Finishers (Duke's Group)</span>
+									<span class="label event-location">Location: Sparetime Bowling</span>
+									<span class="label event-time">2:00 PM</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!-- <a href="<?php echo home_url('life-groups'); ?>">View More Times ></a> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="is-gallery" style="display: none;">
+	<div class="section-body">
+		<div class="wrapper">
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+			<div class="post"></div>
+		</div>
+	</div>
+</section>
+
+<section style="display: none;">
 	<div class="container">
 		<div class="columns">
-			<div class="column is-fullwidth-on-mobile">
+			<div class="column">
 				<h3>Featured Service Two</h3>
 				<p>Here are 2-4 sentences about featured service #1.</p>
 				<a class="button is-outlined" href="#">Learn More</a>
 			</div>
-			<div class="column is-fullwidth-on-mobile">
+			<div class="column">
 				<h3>Summit Arts</h3>
 				<p>Here are 2-4 sentences about featured service #2.</p>
 				<a class="button is-outlined" href="#">Learn More</a>
@@ -40,88 +143,86 @@
 	</div>
 </section>
 
-<section>
-	<div class="container">
-		<h2>Upcoming Events</h2>
-		<p>This section will contain an upcoming event.</p>
+<section id="events">
+	<div class="section-body">
+		<div class="wrapper">
+			<h2 class="has-text-centered">Upcoming Events</h2>
+			<div class="columns is-fullwidth-on-mobile" style="margin: -10px;">
+				<div class="column is-fullwidth-on-mobile">
+					<div class="event-card is-outlined">
+						<div class="event-header">
+							<h3>Summit Arts Audition</h3>
+						</div>
+						<div class="event-date">
+							<strong>August 29th</strong> at 7pm
+						</div>
+						<div class="event-body">
+							<p>This is your opportunity to mature the gift of arts that God has given you. Join the Summit Arts team for 2017-2018 ministry opportunities.</p>
+							<!-- <a class="button is-outlined">View Details</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="column is-fullwidth-on-mobile">
+					<div class="event-card is-outlined">
+						<div class="event-header">
+							<h3>Summit Live</h3>
+						</div>
+						<div class="event-date"><strong>September 29th</strong> at 7:30PM</div>
+						<div class="event-body">
+							<p>Imagine over 100 young adults gathered together for a night of encountering God. Yep. That's Summit Live.</p>
+							<!-- <a class="button is-outlined">View Details</a> -->
+						</div>
+					</div>
+				</div>
+				<div class="column is-fullwidth-on-mobile">
+					<div class="event-card is-outlined">
+						<div class="event-header">
+							<h3>Campus Revival</h3>
+						</div>
+						<div class="event-date"><strong>October 25th-27th</strong> at 7:30PM</div>
+						<div class="event-body">
+							<p>3-nights of revival on the campuses of Bennett, UNCG and NCA&amp;T! </p>
+							<!-- <a class="button is-outlined">View Details</a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
-<section>
-	<div class="container has-text-centered">
-		<p>This will contain a testimonial.</p>
-	</div>
-</section>
-
-<section>
-	<div class="container">
-		<p>Here are 2-3 sentences about The Summit, because it's important for it to be here.</p>
-	</div>
-</section>
-
-<section>
-	<div class="container">
-		<p>Here are 2-3 sentences about New Jerusalem Cathedral.</p>
-	</div>
-</section>
-
-<section>
-	<div class="container has-text-centered">
-		<p>This will contain a testimonial.</p>
-	</div>
-</section>
-
-
-
-
-
-<section>
-	<div class="container">
-		<h2>Blog Posts // Build Your Faith</h2>
-		<div class="columns">
-			<article class="column">
-				<h3>Blog Post One</h3>
-				<p>This will contain an excerpt for the blog post.</p>
-				<a class="button is-outlined">Read More</a>
-			</article>
-			<article class="column">
-				<h3>Blog Post Two</h3>
-				<p>This will contain an excerpt for the blog post.</p>
-				<a class="button is-outlined">Read More</a>
-			</article>
-			<article class="column">
-				<h3>Blog Post Two</h3>
-				<p>This will contain an excerpt for the blog post.</p>
-				<a class="button is-outlined">Read More</a>
-			</article>
+<section id="campus-shuttle">
+	<div class="section-body has-text-centered">
+		<div class="wrapper">
+			<h2 class="is-red">Need a Ride To Church?</h2>
+			<p>On campus with no car? No problem. Every Sunday the shuttle comes to pickup students at UNCG, NCA&amp;T and Bennett. <span class="notice">Campus pickups begin <strong>Sunday, August 20th, 2017</strong></span></p>
+			<p>UNCG 10:10AM (Library Bus Stop) | NCA&amp;T 10:20AM (Blue Rec. Bus Stop) | Bennett 10:30AM (Gorrell St. Bus Stop)</p>
 		</div>
 	</div>
 </section>
 
 <section>
-	<div class="container">
-		<p>Here's some information to introduce the alumni team of The Summit.</p>
-		<div class="columns">
-			<div class="column is-fullwidth-on-mobile">
-				<h3>Marcus Battle</h3>
-				<p></p>
-			</div>
-			<div class="column is-fullwidth-on-mobile">
-				<h3>Tammy Battle</h3>
-			</div>
-			<div class="column is-fullwidth-on-mobile">
-				<h3>Michael Clinton</h3>
-			</div>
-			<div class="column is-fullwidth-on-mobile">
-				<h3>Rosemary Williams</h3>
+	<div class="section-body">
+		<div class="wrapper">
+			<div class="columns is-fullwidth-on-mobile has-padded-columns">
+				<div class="column is-fullwidth-on-mobile">
+					<h3>About The Summit</h3>
+					<p>The Summit is the college and young adult ministry of New Jerusalem Cathedral in Greensboro, NC. We exist to challenge all young adults in the Triad to be the light and drive out darkness in their communities.</p>
+				</div>
+				<div class="column is-fullwidth-on-mobile">
+					<h3>About New Jerusalem Cathedral</h3>
+					<p>New Jerusalem Cathedral is the parent church of The Summit. With over 35 years of ministry in the city of Greensboro, NC, NJC exists to resolve homelessness in Guilford County and surrounding areas. <a href="http://newjc.org">Learn More.</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
 <footer>
-	<div class="container">
-		<h2>The Summit</h2>
+	<div class="section-body">
+		<div class="wrapper">
+			<p>Need Prayer? Want to volunteer? or just have questions? Email us at thesummit@newjc.org or call (336) 645-9271 (Sun-Fri 10AM-5PM).</p>
+		</div>
 	</div>
 </footer>
 
