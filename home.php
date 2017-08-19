@@ -64,20 +64,7 @@
 								<div class="event-details">
 									<span class="label event-title">Rissa's Group</span>
 									<span class="label event-location">Location: Chipotle (Tate St.)</span>
-									<span class="label event-time">6:30 PM</span>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="event-date-wrapper">
-								<span class="event-date">
-									<span class="label event-day-of-week">23</span>
-									<span class="label event-month">August</span>
-								</span>
-								<div class="event-details">
-									<span class="label event-title">CJ's Group</span>
-									<span class="label event-location">Location: Starbucks (Battleground Ave.)</span>
-									<span class="label event-time">6:00 PM</span>
+									<span class="label event-time">6:30 PM (Tuesday)</span>
 								</div>
 							</div>
 						</li>
@@ -88,9 +75,9 @@
 									<span class="label event-month">August</span>
 								</span>
 								<div class="event-details">
-									<span class="label event-title">Justin's Group</span>
-									<span class="label event-location">Location: TBA</span>
-									<span class="label event-time">7:00 PM</span>
+									<span class="label event-title">Love's Progeny (Justin's Group)</span>
+									<span class="label event-location">Location: The Green Bean Coffee</span>
+									<span class="label event-time">7:00 PM (Friday)</span>
 								</div>
 							</div>
 						</li>
@@ -102,8 +89,21 @@
 								</span>
 								<div class="event-details">
 									<span class="label event-title">The Finishers (Duke's Group)</span>
-									<span class="label event-location">Location: Sparetime Bowling</span>
-									<span class="label event-time">2:00 PM</span>
+									<span class="label event-location">Location: Sweet Frog's (Wendover Ave.)</span>
+									<span class="label event-time">2:00 PM (Saturday)</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="event-date-wrapper">
+								<span class="event-date">
+									<span class="label event-day-of-week">30</span>
+									<span class="label event-month">August</span>
+								</span>
+								<div class="event-details">
+									<span class="label event-title">CJ's Group</span>
+									<span class="label event-location">Location: Starbucks (Battleground Ave.)</span>
+									<span class="label event-time">6:00 PM (Wednesday)</span>
 								</div>
 							</div>
 						</li>
@@ -196,7 +196,7 @@
 		<div class="wrapper">
 			<h2 class="is-red">Need a Ride To Church?</h2>
 			<p>On campus with no car? No problem. Every Sunday the shuttle comes to pickup students at UNCG, NCA&amp;T and Bennett. <span class="notice">Campus pickups begin <strong>Sunday, August 20th, 2017</strong></span></p>
-			<p>UNCG 10:10AM (Library Bus Stop) | NCA&amp;T 10:20AM (Blue Rec. Bus Stop) | Bennett 10:30AM (Gorrell St. Bus Stop)</p>
+			<p>UNCG 10:20AM (EUC Library Bus Stop) | NCA&amp;T 10:30AM (Campus Rec. Bus Stop) | Bennett 10:35AM (Gorrell St. Bus Stop)</p>
 		</div>
 	</div>
 </section>
