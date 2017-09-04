@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+le<?php get_header(); ?>
 
 <header class="is-large is-red">
 	<div class="section-header has-no-padding">
@@ -58,8 +58,8 @@
 						<li>
 							<div class="event-date-wrapper">
 								<span class="event-date">
-									<span class="label event-day-of-week">22</span>
-									<span class="label event-month">August</span>
+									<span class="label event-day-of-week">12</span>
+									<span class="label event-month">September</span>
 								</span>
 								<div class="event-details">
 									<span class="label event-title">Rissa's Group</span>
@@ -71,8 +71,8 @@
 						<li>
 							<div class="event-date-wrapper is-minimized">
 								<span class="event-date">
-									<span class="label event-day-of-week">25</span>
-									<span class="label event-month">August</span>
+									<span class="label event-day-of-week">15</span>
+									<span class="label event-month">September</span>
 								</span>
 								<div class="event-details">
 									<span class="label event-title">Love's Progeny (Justin's Group)</span>
@@ -84,8 +84,8 @@
 						<li>
 							<div class="event-date-wrapper is-minimized">
 								<span class="event-date">
-									<span class="label event-day-of-week">26</span>
-									<span class="label event-month">August</span>
+									<span class="label event-day-of-week">16</span>
+									<span class="label event-month">September</span>
 								</span>
 								<div class="event-details">
 									<span class="label event-title">The Finishers (Duke's Group)</span>
@@ -97,8 +97,8 @@
 						<li>
 							<div class="event-date-wrapper">
 								<span class="event-date">
-									<span class="label event-day-of-week">30</span>
-									<span class="label event-month">August</span>
+									<span class="label event-day-of-week">20</span>
+									<span class="label event-month">September</span>
 								</span>
 								<div class="event-details">
 									<span class="label event-title">CJ's Group</span>
@@ -126,7 +126,7 @@
 	</div>
 </section>
 
-<section style="display: none;">
+<<section style="display: none;">
 	<div class="container">
 		<div class="columns">
 			<div class="column">
@@ -148,20 +148,6 @@
 		<div class="wrapper">
 			<h2 class="has-text-centered">Upcoming Events</h2>
 			<div class="columns is-fullwidth-on-mobile" style="margin: -10px;">
-				<div class="column is-fullwidth-on-mobile">
-					<div class="event-card is-outlined">
-						<div class="event-header">
-							<h3>Summit Arts Audition</h3>
-						</div>
-						<div class="event-date">
-							<strong>August 29th</strong> at 7pm
-						</div>
-						<div class="event-body">
-							<p>This is your opportunity to mature the gift of arts that God has given you. Join the Summit Arts team for 2017-2018 ministry opportunities.</p>
-							<!-- <a class="button is-outlined">View Details</a> -->
-						</div>
-					</div>
-				</div>
 				<div class="column is-fullwidth-on-mobile">
 					<div class="event-card is-outlined">
 						<div class="event-header">
