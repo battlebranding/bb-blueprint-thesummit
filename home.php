@@ -1,4 +1,4 @@
-le<?php get_header(); ?>
+<?php get_header(); ?>
 
 <header class="is-large is-red">
 	<div class="section-header has-no-padding">
