@@ -56,19 +56,6 @@
 					<h4>Upcoming Small Groups</h4>
 					<ul class="list events-list is-outlined">
 						<li>
-							<div class="event-date-wrapper">
-								<span class="event-date">
-									<span class="label event-day-of-week">12</span>
-									<span class="label event-month">September</span>
-								</span>
-								<div class="event-details">
-									<span class="label event-title">Rissa's Group</span>
-									<span class="label event-location">Location: Chipotle (Tate St.)</span>
-									<span class="label event-time">6:30 PM (Tuesday)</span>
-								</div>
-							</div>
-						</li>
-						<li>
 							<div class="event-date-wrapper is-minimized">
 								<span class="event-date">
 									<span class="label event-day-of-week">15</span>
@@ -91,6 +78,19 @@
 									<span class="label event-title">The Finishers (Duke's Group)</span>
 									<span class="label event-location">Location: Sweet Frog's (Wendover Ave.)</span>
 									<span class="label event-time">2:00 PM (Saturday)</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="event-date-wrapper">
+								<span class="event-date">
+									<span class="label event-day-of-week">19</span>
+									<span class="label event-month">September</span>
+								</span>
+								<div class="event-details">
+									<span class="label event-title">Rissa's Group</span>
+									<span class="label event-location">Location: Chipotle (Tate St.)</span>
+									<span class="label event-time">6:30 PM (Tuesday)</span>
 								</div>
 							</div>
 						</li>
